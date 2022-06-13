@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae48651b906e93d4bb7c5686bcd6cee7, type: 3}
+  m_Name: CardSO
+  m_EditorClassIdentifier: 
+  cards:
+  - name: "\uD0C0\uACA9"
+    effectText: "\uC801\uC744 \uAC00\uACA9\uD558\uC5EC\n<color=red>5\uC758 \uB370\uBBF8\uC9C0</color>\uB97C
+      \uC90D\uB2C8\uB2E4."
+    cardFront: {fileID: 21300000, guid: 03be61bd2dbc3b74c8f4b81a4b1e7cd2, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: 730c4c158286bfc419b9991fe1117d21, type: 3}
+    oval: {fileID: 21300000, guid: 3978d9e53001c674cab3d54852f623fb, type: 3}
+    image: {fileID: 21300000, guid: 69c7ad9ba7beb5346a493448f38f1a86, type: 3}
+    price: 100
+    type: 0
+    value: 5
+    range: 1
+    costHP: 0
+    isKill: 0
+    draw: 0
+  - name: "\uBC29\uC5B4"
+    effectText: "\uC801\uC758 \uACF5\uACA9\uC744 \uD761\uC218\uD558\uB294\n<color=blue>3\uC758
+      \uC2E4\uB4DC</color>\uB97C \uC5BB\uC2B5\uB2C8\uB2E4."
+    cardFront: {fileID: 21300000, guid: 03be61bd2dbc3b74c8f4b81a4b1e7cd2, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: 730c4c158286bfc419b9991fe1117d21, type: 3}
+    oval: {fileID: 21300000, guid: 3978d9e53001c674cab3d54852f623fb, type: 3}
+    image: {fileID: 21300000, guid: f0b12383c1012d244a4d6052d95ff544, type: 3}
+    price: 100
+    type: 1
+    value: 3
+    range: 0
+    costHP: 0
+    isKill: 0
+    draw: 0
+  - name: "\uC808\uB2E8"
+    effectText: "\uC801 <color=red>\uC804\uCCB4</color>\uB97C \uACF5\uACA9\uD558\uC5EC\n<color=red>3\uC758
+      \uD53C\uD574</color>\uB97C \uC90D\uB2C8\uB2E4."
+    cardFront: {fileID: 21300000, guid: 764bcd005be451b4bb9042a1bdf961fc, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: 730c4c158286bfc419b9991fe1117d21, type: 3}
+    oval: {fileID: 21300000, guid: 647ff93fb46cd6042bf5f5dddf7579f5, type: 3}
+    image: {fileID: 21300000, guid: ef4e7116d7dda714f966266b900817ff, type: 3}
+    price: 200
+    type: 0
+    value: 3
+    range: 3
+    costHP: 0
+    isKill: 0
+    draw: 0
+  - name: "\uB4DC\uB85C\uC6B0"
+    effectText: "<color=red>\uCE74\uB4DC \uD55C \uC7A5</color>\uC744 \uBF51\uC2B5\uB2C8\uB2E4."
+    cardFront: {fileID: 21300000, guid: 03be61bd2dbc3b74c8f4b81a4b1e7cd2, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: 558f83ac5cf708d45a8fc42a7a77af13, type: 3}
+    oval: {fileID: 21300000, guid: 3978d9e53001c674cab3d54852f623fb, type: 3}
+    image: {fileID: 21300000, guid: a3d3b1d91ce30e342b78327ddbdd9e15, type: 3}
+    price: 100
+    type: 0
+    value: 0
+    range: 0
+    costHP: 0
+    isKill: 0
+    draw: 1
+  - name: "\uD68C\uBCF5"
+    effectText: "HP\uB97C <color=green>4 \uD68C\uBCF5</color>\uD569\uB2C8\uB2E4."
+    cardFront: {fileID: 21300000, guid: 03be61bd2dbc3b74c8f4b81a4b1e7cd2, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: 558f83ac5cf708d45a8fc42a7a77af13, type: 3}
+    oval: {fileID: 21300000, guid: 3978d9e53001c674cab3d54852f623fb, type: 3}
+    image: {fileID: 21300000, guid: 0c37db74f0f5ebd429708261ba175d6d, type: 3}
+    price: 100
+    type: 2
+    value: 4
+    range: 0
+    costHP: 0
+    isKill: 0
+    draw: 0

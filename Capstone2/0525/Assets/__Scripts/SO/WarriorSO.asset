@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae48651b906e93d4bb7c5686bcd6cee7, type: 3}
+  m_Name: WarriorSO
+  m_EditorClassIdentifier: 
+  cards:
+  - name: "\uAC15\uACA9"
+    effectText: "\uB300\uAC80\uC744 \uD718\uB458\uB7EC\n<color=red>8\uC758 \uB370\uBBF8\uC9C0</color>\uB97C
+      \uC90D\uB2C8\uB2E4"
+    cardFront: {fileID: 21300000, guid: 03be61bd2dbc3b74c8f4b81a4b1e7cd2, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: d02ac31126cfd4b408a2ab6d8ff409d6, type: 3}
+    oval: {fileID: 21300000, guid: 3978d9e53001c674cab3d54852f623fb, type: 3}
+    image: {fileID: 21300000, guid: 551e989bef45ccb44a9c368693b1d947, type: 3}
+    price: 0
+    type: 0
+    value: 8
+    range: 1
+    costHP: 0
+    isKill: 0
+    draw: 0
+  - name: "\uD76C\uC0DD"
+    effectText: "<color=yellow>HP 4 \uC18C\uBAA8</color>\uD558\uC5EC\n<color=red>12\uC758
+      \uB370\uBBF8\uC9C0</color>\uB97C \uC90D\uB2C8\uB2E4"
+    cardFront: {fileID: 21300000, guid: 03be61bd2dbc3b74c8f4b81a4b1e7cd2, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: d02ac31126cfd4b408a2ab6d8ff409d6, type: 3}
+    oval: {fileID: 21300000, guid: 3978d9e53001c674cab3d54852f623fb, type: 3}
+    image: {fileID: 21300000, guid: f6a6372457c4c9e4fa9a01eee6b2e62a, type: 3}
+    price: 0
+    type: 0
+    value: 12
+    range: 1
+    costHP: 4
+    isKill: 0
+    draw: 0
+  - name: "\uAD00\uD1B5 \uACF5\uACA9"
+    effectText: "<color=red>5\uC758 \uB370\uBBF8\uC9C0</color>\uB97C \uC8FC\uACE0\n<color=yellow>\uC801\uC744
+      \uCC98\uCE58</color>\uD558\uC600\uC744 \uC2DC\n<color=blue>\uCE74\uB4DC\uB97C
+      \uD55C \uC7A5</color> \uBF51\uC2B5\uB2C8\uB2E4."
+    cardFront: {fileID: 21300000, guid: 03be61bd2dbc3b74c8f4b81a4b1e7cd2, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: d02ac31126cfd4b408a2ab6d8ff409d6, type: 3}
+    oval: {fileID: 21300000, guid: 3978d9e53001c674cab3d54852f623fb, type: 3}
+    image: {fileID: 21300000, guid: 9acb15afe513288418514dbe1be66740, type: 3}
+    price: 0
+    type: 0
+    value: 5
+    range: 1
+    costHP: 0
+    isKill: 1
+    draw: 1
+  - name: "\uC911\uAC11\uCC29\uC6A9"
+    effectText: "<color=blue>8\uC758 \uC2E4\uB4DC</color>\uB97C \uC5BB\uC2B5\uB2C8\uB2E4"
+    cardFront: {fileID: 21300000, guid: 03be61bd2dbc3b74c8f4b81a4b1e7cd2, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: d02ac31126cfd4b408a2ab6d8ff409d6, type: 3}
+    oval: {fileID: 21300000, guid: 3978d9e53001c674cab3d54852f623fb, type: 3}
+    image: {fileID: 21300000, guid: 92d325a98fe2a7f49965b4adfbb0810d, type: 3}
+    price: 0
+    type: 1
+    value: 8
+    range: 0
+    costHP: 0
+    isKill: 0
+    draw: 0
+  - name: "\uAE30\uC808"
+    effectText: "<color=red>6\uC758 \uB370\uBBF8\uC9C0</color>\uB97C \uC8FC\uACE0\n\uB300\uC0C1\uC744
+      <color=blue>\uD55C \uD134 \uAE30\uC808</color> \uC2DC\uD0B5\uB2C8\uB2E4."
+    cardFront: {fileID: 21300000, guid: 764bcd005be451b4bb9042a1bdf961fc, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: d02ac31126cfd4b408a2ab6d8ff409d6, type: 3}
+    oval: {fileID: 21300000, guid: 647ff93fb46cd6042bf5f5dddf7579f5, type: 3}
+    image: {fileID: 21300000, guid: 14411367c72b4c7459eddfa80a9b53b0, type: 3}
+    price: 0
+    type: 0
+    value: 6
+    range: 0
+    costHP: 0
+    isKill: 0
+    draw: 0
+  - name: "\uD761\uD608"
+    effectText: "7\uB370\uBBF8\uC9C0 \uB9C9\uD0C0 \uC2DC \uD68C\uBCF5"
+    cardFront: {fileID: 21300000, guid: 764bcd005be451b4bb9042a1bdf961fc, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: d02ac31126cfd4b408a2ab6d8ff409d6, type: 3}
+    oval: {fileID: 21300000, guid: 647ff93fb46cd6042bf5f5dddf7579f5, type: 3}
+    image: {fileID: 21300000, guid: 3054ebaf1cf5e084884027d9c3251c86, type: 3}
+    price: 0
+    type: 0
+    value: 0
+    range: 0
+    costHP: 0
+    isKill: 0
+    draw: 0
+  - name: "\uD544\uC0AC\uC758 \uC77C\uACA9"
+    effectText: "18\uB370\uBBF8\uC9C0 hp - 8"
+    cardFront: {fileID: 21300000, guid: 764bcd005be451b4bb9042a1bdf961fc, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: d02ac31126cfd4b408a2ab6d8ff409d6, type: 3}
+    oval: {fileID: 21300000, guid: 647ff93fb46cd6042bf5f5dddf7579f5, type: 3}
+    image: {fileID: 21300000, guid: 0fc0a810bad4b6441beaf8b5e885ff22, type: 3}
+    price: 0
+    type: 0
+    value: 18
+    range: 1
+    costHP: 8
+    isKill: 0
+    draw: 0
+  - name: "\uB118\uCE58\uB294 \uC0DD\uBA85\uB825"
+    effectText: "\uB3C4\uD2B8\uD790"
+    cardFront: {fileID: 21300000, guid: 764bcd005be451b4bb9042a1bdf961fc, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: d02ac31126cfd4b408a2ab6d8ff409d6, type: 3}
+    oval: {fileID: 21300000, guid: 647ff93fb46cd6042bf5f5dddf7579f5, type: 3}
+    image: {fileID: 21300000, guid: 397ef057720e32242bd0aa6bc4b5a6d5, type: 3}
+    price: 0
+    type: 0
+    value: 0
+    range: 0
+    costHP: 0
+    isKill: 0
+    draw: 0
+  - name: "\uB9C8\uBB34\uB9AC \uC77C\uACA9"
+    effectText: "10\uB370\uBBF8\uC9C0 hp-4 \uC77C\uC815 hp \uC774\uD558 \uC989"
+    cardFront: {fileID: 21300000, guid: 67c905ac402d1bc42951477efd17f6df, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: 5b9cbacba10bc274b895c469542d7e24, type: 3}
+    oval: {fileID: 21300000, guid: 9991b320218d2bb44b56d998fd39d095, type: 3}
+    image: {fileID: 21300000, guid: 3054ebaf1cf5e084884027d9c3251c86, type: 3}
+    price: 0
+    type: 0
+    value: 10
+    range: 1
+    costHP: 4
+    isKill: 0
+    draw: 0
+  - name: "\uCCA0\uBCBD"
+    effectText: "12\uC2E4\uB4DC \uC774\uD6C4 \uC2E4\uB4DC\uAC00 \uD134\uC885\uB8CC
+      \uD574\uB3C4 \uC720\uC9C0"
+    cardFront: {fileID: 21300000, guid: 67c905ac402d1bc42951477efd17f6df, type: 3}
+    violet: {fileID: 21300000, guid: ef450d65910719f4a95c8b2574a92637, type: 3}
+    icon: {fileID: 21300000, guid: 5b9cbacba10bc274b895c469542d7e24, type: 3}
+    oval: {fileID: 21300000, guid: 9991b320218d2bb44b56d998fd39d095, type: 3}
+    image: {fileID: 21300000, guid: a3d3b1d91ce30e342b78327ddbdd9e15, type: 3}
+    price: 0
+    type: 1
+    value: 12
+    range: 0
+    costHP: 0
+    isKill: 0
+    draw: 0
