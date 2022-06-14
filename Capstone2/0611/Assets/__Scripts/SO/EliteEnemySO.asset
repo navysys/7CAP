@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b013faf620e07194c8b781c681c19790, type: 3}
+  m_Name: EliteEnemySO
+  m_EditorClassIdentifier: 
+  EArrays:
+  - ENum: 010000000100000003000000
+  - ENum: 02000000020000000800000008000000
+  - ENum: 020000000300000004000000
+  - ENum: 0a0000000a000000
+  - ENum: 060000000600000006000000
+  - ENum: 090000000a0000000a000000
+  - ENum: 0400000004000000
+  - ENum: 0700000007000000
+  - ENum: 0700000007000000
